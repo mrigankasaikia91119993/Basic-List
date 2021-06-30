@@ -5,12 +5,12 @@ def mriganka_sort(b):
 	e = 0
 	d = True
 	while int(d) == 1:
-			for i in range(c - 1):
-				if b[i] > b[i + 1]:
-					b[i], b[i + 1] = b[i + 1], b[i]
-					e += 1
-			if e == 0:
-					d = False
+		for i in range(c - 1):
+			if b[i] > b[i + 1]:
+				b[i], b[i + 1] = b[i + 1], b[i]
+				e += 1
+		if e == 0:
+			d = False
 			e = 0
 	return b
 	
